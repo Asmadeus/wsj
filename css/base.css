@@ -1,0 +1,121 @@
+/***********************************************
+ *              Reset
+ ***********************************************/
+a, abbr, acronym, address,
+applet, article, aside, audio,
+b, big, blockquote, body, canvas,
+caption, center, cite, code, dd,
+del, details, dfn, div, dl, dt, em,
+embed, fieldset, figcaption, figure,
+footer, form, h1, h2, h3, h4, h5, h6,
+header, hgroup, html, i, iframe, img, ins,
+kbd, label, legend, li, mark, menu, nav,
+object, ol, output, p, pre, q, ruby, s, samp,
+section, small, span, strike, strong, sub,
+summary, sup, table, tbody, td, tfoot, th,
+thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+/***********************************************
+ *              Custom
+ ***********************************************/
+a:active,
+a:link,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:hover {
+  color: #0080c3;
+}
+
+menu,ol,ul {
+    list-style: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.column:after,
+.module:after,
+.container:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both
+}
+
+.column {
+ float: left;
+ overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.module {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 660px) {
+  .container {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .container {
+    width: 1280px;
+  }
+}
