@@ -4,7 +4,7 @@ $(document).ready( function() {
   $('.search-icon').click( function() {
     if ($('header').hasClass('search-closed')) {
       $('header').removeClass('search-closed').addClass('search-open');
-      $('body').addClass('no-scroll');
+      $('body').addClass('overflow-hidden');
       if ($( document ).width() < 1000) {
         var mask = document.createElement('div');
         $(mask).css ({
@@ -23,7 +23,7 @@ $(document).ready( function() {
     else {
       $('header').removeClass('search-open').addClass('search-closed');
       $('.mask').remove();
-      $('body').removeClass('no-scroll');
+      $('body').removeClass('overflow-hidden');
     }
   });
 

@@ -98,7 +98,7 @@ menu,ol,ul {
   margin-right: 10px;
 }
 
-.no-scroll {
+.overflow-hidden {
   overflow: hidden;
 }
 
