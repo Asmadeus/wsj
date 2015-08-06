@@ -2,9 +2,6 @@
                 Main-page
  *********************************************/
 
-.space-bottom {
- margin-bottom: 15px;
-}
 .category-title {
   border-top: 2px solid #333;
   border-bottom: 1px solid #ccc;
@@ -239,12 +236,12 @@
     /*border-left: 1px solid #ccc;*/
   }
   .sequence-3 .news-list:nth-child(2n+1) {
-    border-left: none;
+    /*border-left: none;*/
   }
 }
 @media (max-width: 1000px) {
   .side {
-    border-left: none;
+    /*border-left: none;*/
   }
 }
 @media (max-width: 660px) {
@@ -256,7 +253,7 @@
   .sequence-1 .column-single .news-item+.news-item,
   .sequence-2 .column-right .news-item+.news-item {
     border-top: 1px solid #ccc;
-    border-left: none;
+    /*border-left: none;*/
     padding-top: 15px;
   }
   .sequence-1 .column-single {
@@ -266,7 +263,7 @@
     width: 100%;
   }
   .sequence-3 .news-list+.news-list {
-    border-left: none;
+    /*border-left: none;*/
   }
   .sequence-1 .column-right .news-item:first-child {
     border-top: 1px solid #ccc;
@@ -276,8 +273,5 @@
     max-width: 200px;
     width: 200px;
     margin-top: 0;
-  }
-  .side {
-    width: 100%;
   }
 }
