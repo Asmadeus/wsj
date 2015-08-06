@@ -119,3 +119,9 @@ menu,ol,ul {
     width: 1280px;
   }
 }
+
+@media screen and (max-width: 660px) {
+  .column {
+    float: none;
+  }
+}
