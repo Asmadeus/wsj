@@ -1,7 +1,7 @@
 /*********************************************
                 Main-page
  *********************************************/
- 
+
 .space-bottom {
  margin-bottom: 15px;
 }
@@ -144,6 +144,7 @@
 }
 .side {
   /*border-left: 1px solid #ccc;*/
+
 }
 .column-left, .column-right {
   width: 100%;
@@ -275,5 +276,8 @@
     max-width: 200px;
     width: 200px;
     margin-top: 0;
+  }
+  .side {
+    width: 100%;
   }
 }
