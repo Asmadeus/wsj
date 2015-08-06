@@ -138,8 +138,8 @@
   border-left: 1px solid #ccc;
 }
 .rule-border {
-  /*padding-bottom: 20000px;
-  margin-bottom: -20000px*/
+  padding-bottom: 20000px;
+  margin-bottom: -20000px
 }
 .side {
   border-left: 1px solid #ccc;
